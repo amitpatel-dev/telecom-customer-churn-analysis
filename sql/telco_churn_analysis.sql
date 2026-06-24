@@ -168,6 +168,7 @@ SELECT
 FROM telco_churn
 WHERE TotalCharges >= 5000;
 
+-- Potential Revenue at risk based on MonthlyCharges.
 SELECT
       Contract,
       SUM(MonthlyCharges)
